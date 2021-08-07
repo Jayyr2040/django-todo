@@ -1,1 +1,1 @@
-web: gunicorn seconddjango.wsgi
+web: gunicorn seconddjango.wsgi --log-file -
